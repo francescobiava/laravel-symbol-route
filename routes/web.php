@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/exercise1', 'exerciseController@getExercise1');
+
+Route::get('/exercise2', 'exerciseController@getExercise2');
